@@ -257,6 +257,10 @@ input {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
+.default-thank-padding {
+	padding-top: 0px;
+	padding-bottom: 80px;
+}
 .default-padding-top {
 	padding-top: 80px;
 }
@@ -649,7 +653,7 @@ nav.navbar.bootsnav .widget.instagram ul li img {
 	margin-left: -40px;
 }
 .utf-site-heading h2 span {
-	color: #B4846C;
+	color: #87CEFA;
 }
 .utf-site-heading {
 	margin-bottom: 60px;
@@ -2535,7 +2539,7 @@ to {
     font-size: 40px;
     margin-bottom: 25px;
     color: #fff;
-    background: #E5B299;
+    background: #87CEFA;
     width: 90px;
     height: 90px;
     line-height: 90px;
