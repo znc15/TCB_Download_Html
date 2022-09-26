@@ -1621,7 +1621,7 @@ input.mdui-btn[type="submit"] {
 }
 .mdui-list {
   margin: 0;
-  padding: 8px 0;
+  padding: 17px 0;
   list-style: none;
   background-color: transparent;
 }
@@ -4840,7 +4840,7 @@ body.mdui-loaded .mdui-drawer {
 .mc-drawer .copyright {
   box-sizing: border-box;
   width: 100%;
-  padding: 20px 16px;
+  padding: 3px 16px;
 }
 .mc-drawer .copyright p {
   margin: 0;
