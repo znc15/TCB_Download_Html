@@ -6629,7 +6629,7 @@ body.mdui-locked {
   border-bottom: none;
 }
 .mdui-theme-layout-dark .mdui-panel-item-header:active {
-  background-color: #424242;
+  background-color: #ffffff;
 }
 .mdui-theme-layout-dark .mdui-panel-item-summary {
   color: rgba(255, 255, 255, 0.7);
@@ -6650,7 +6650,7 @@ body.mdui-locked {
     border-bottom: none;
   }
   .mdui-theme-layout-auto .mdui-panel-item-header:active {
-    background-color: #424242;
+    background-color: #ffff;
   }
   .mdui-theme-layout-auto .mdui-panel-item-summary {
     color: rgba(255, 255, 255, 0.7);

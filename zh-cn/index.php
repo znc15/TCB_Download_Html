@@ -48,6 +48,9 @@
         <a onclick="javascript:location.reload();" class="mdui-btn mdui-btn-icon">
           <i class="mdui-icon material-icons">refresh</i>
         </a>
+        <a class="mdui-btn mdui-btn-icon">
+        <i class="fa-solid fa-language mdui-icon material-icons"></i>
+        </a>
       </div>
     </div>
     </header>

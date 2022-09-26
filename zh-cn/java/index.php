@@ -112,7 +112,7 @@
         <strong>页</strong>面 
       </h1>
       <div class="meta">
-        从Java8-Java18，你想要的，这里都有
+        从Java7-Java19，你想要的，这里都有。
       </div>
       <div class="actions">
         <a href="/docs" class="mdui-btn mdui-ripple" target="_blank"
@@ -158,7 +158,7 @@
      <div class="utf-site-heading text-center"> 
       <div class="col-md-8 col-md-offset-2"> 
        <h2>主要版本<span>下载</span></h2> 
-       <p>流行版本下载区</p> 
+       <p>流行版本下载区，版本为Windows x64</p> 
       </div> 
      </div> 
     </div> 
@@ -168,16 +168,27 @@
        <div class="mdui-card"> 
         <div class="mdui-card-media"> 
          <img src="https://cdn.w3cbus.com/mdui/docs~1/static/1ca4b7b2b4b2f2352aeb.jpg" /> 
-         <div class="mdui-card-media-covered mdui-card-media-covered-transparent"> 
+         <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
+         <div class="mdui-card-media-covered">
           <div class="mdui-card-primary"> 
            <div class="mdui-card-primary-title">
             Java8
            </div> 
+           </div>
           </div> 
          </div> 
         </div> 
-        <div class="mdui-card-actions"> 
-         <button class="mdui-btn mdui-ripple">下载</button> 
+        <div class="mdui-card-actions">
+        <a href="https://www.miaofile.com/api/v3/file/source/132374/jdk-8u333-windows-x64.exe?sign=0WXn4zfJvsIs0L7RfsrY2hO1LPgabDEEzgvtXrCpk0I%3D%3A0">
+         <button class="mdui-btn mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+        </a>
+         <div class="mdui-dialog" id="download-ts">
+           <div class="mdui-dialog-title">正在下载了喵！</div>
+           <div class="mdui-dialog-content">如果下载速度不行，可以使用IDM，FreeDownload等多线程下载器</div>
+           <div class="mdui-dialog-actions">
+           <button class="mdui-btn mdui-ripple" mdui-dialog-cancel>我知道啦</button>
+          </div>
+         </div>
          <button class="mdui-btn mdui-ripple">历史版本查看</button> 
         </div> 
        </div> 
@@ -186,16 +197,18 @@
        <div class="mdui-card"> 
         <div class="mdui-card-media"> 
          <img src="https://cdn.w3cbus.com/mdui/docs~1/static/1ca4b7b2b4b2f2352aeb.jpg" /> 
-         <div class="mdui-card-media-covered mdui-card-media-covered-transparent"> 
+         <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
+         <div class="mdui-card-media-covered">
           <div class="mdui-card-primary"> 
            <div class="mdui-card-primary-title">
             Java11
+            </div>
            </div> 
           </div> 
          </div> 
         </div> 
         <div class="mdui-card-actions"> 
-         <button class="mdui-btn mdui-ripple">下载</button> 
+         <button class="mdui-btn mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
          <button class="mdui-btn mdui-ripple">历史版本查看</button> 
         </div> 
        </div> 
@@ -205,15 +218,17 @@
         <div class="mdui-card-media"> 
          <img src="https://cdn.w3cbus.com/mdui/docs~1/static/1ca4b7b2b4b2f2352aeb.jpg" /> 
          <div class="mdui-card-media-covered mdui-card-media-covered-transparent"> 
+         <div class="mdui-card-media-covered">
           <div class="mdui-card-primary"> 
            <div class="mdui-card-primary-title">
             Java16
+            </div>
            </div> 
           </div> 
          </div> 
         </div> 
         <div class="mdui-card-actions"> 
-         <button class="mdui-btn mdui-ripple">下载</button> 
+         <button class="mdui-btn mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
          <button class="mdui-btn mdui-ripple">历史版本查看</button> 
         </div> 
        </div> 
@@ -225,16 +240,18 @@
        <div class="mdui-card"> 
         <div class="mdui-card-media"> 
          <img src="https://cdn.w3cbus.com/mdui/docs~1/static/1ca4b7b2b4b2f2352aeb.jpg" /> 
-         <div class="mdui-card-media-covered mdui-card-media-covered-transparent"> 
+         <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
+         <div class="mdui-card-media-covered">
           <div class="mdui-card-primary"> 
            <div class="mdui-card-primary-title">
             Java17
+            </div>
            </div> 
           </div> 
          </div> 
         </div> 
         <div class="mdui-card-actions"> 
-         <button class="mdui-btn mdui-ripple">下载</button> 
+         <button class="mdui-btn mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
          <button class="mdui-btn mdui-ripple">历史版本查看</button> 
         </div> 
        </div> 
@@ -244,15 +261,17 @@
         <div class="mdui-card-media"> 
          <img src="https://cdn.w3cbus.com/mdui/docs~1/static/1ca4b7b2b4b2f2352aeb.jpg" /> 
          <div class="mdui-card-media-covered mdui-card-media-covered-transparent"> 
+         <div class="mdui-card-media-covered">
           <div class="mdui-card-primary"> 
            <div class="mdui-card-primary-title">
             Java18
+            </div>
            </div> 
           </div> 
          </div> 
         </div> 
         <div class="mdui-card-actions"> 
-         <button class="mdui-btn mdui-ripple">下载</button> 
+         <button class="mdui-btn mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
          <button class="mdui-btn mdui-ripple">历史版本查看</button> 
         </div> 
        </div> 
@@ -261,16 +280,18 @@
        <div class="mdui-card"> 
         <div class="mdui-card-media"> 
          <img src="https://cdn.w3cbus.com/mdui/docs~1/static/1ca4b7b2b4b2f2352aeb.jpg" /> 
-         <div class="mdui-card-media-covered mdui-card-media-covered-transparent"> 
+         <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
+         <div class="mdui-card-media-covered">
           <div class="mdui-card-primary"> 
            <div class="mdui-card-primary-title">
             Java19
+            </div>
            </div> 
           </div> 
          </div> 
         </div> 
         <div class="mdui-card-actions"> 
-         <button class="mdui-btn mdui-ripple">下载</button> 
+         <button class="mdui-btn mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
          <button class="mdui-btn mdui-ripple">历史版本查看</button> 
          </div> 
         </div> 
@@ -288,10 +309,408 @@
      <div class="utf-site-heading text-center"> 
       <div class="col-md-8 col-md-offset-2"> 
        <h2>所有版本<span>下载</span></h2> 
-       <p>Java全版本下载区</p> 
+       <p>Java全版本下载区</p>
       </div> 
      </div> 
-    </div>    
+    </div>
+    <div class="mdui-container"> 
+    <div class="mdui-panel" mdui-panel=""> 
+    <div class="mdui-panel-item"> 
+     <div class="mdui-panel-item-header">
+      Java7（JDK7）
+     </div> 
+     <div class="mdui-panel-item-body"> 
+      <div class="mdui-panel" mdui-panel=""> 
+       <div class="mdui-panel-item"> 
+        <div class="mdui-panel-item-header">
+         2020 4月份
+        </div> 
+        <div class="mdui-panel-item-body"> 
+         <h2>Linux:</h2> 
+         <p>适配版本：x64 </p> 
+         <p>文件大小：62.5MB </p> 
+         <p>MD5：64039d93f3f6e583c8e56fcadb48cf6c</p>
+         <a href="https://d6.injdk.cn/openjdk/zulu/7/zulu7.42.0.51-ca-jdk7.0.285-linux_x64.tar.gz">
+         <button style="float:right" class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button>
+         </a>
+         <br>
+         <h2>Windows:</h2> 
+         <p>适配版本：x64 </p> 
+         <p>文件大小：140MB </p> 
+         <p>MD5：499b224f4da70312ddd47c4824e83adc </p> 
+         <a href="https://www.miaofile.com/api/v3/file/source/132371/jdk-7u80-windows-x64.exe?sign=7qBPTsjyvl_nFjV2aXh1zklb-Yb_pnPDgCFs3nRlYEw%3D%3A0">
+         <button style="float:right" class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button>
+         </a>
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+    <br />
+    <div class="mdui-panel" mdui-panel=""> 
+     <div class="mdui-panel-item"> 
+      <div class="mdui-panel-item-header">
+      <a name="java8">
+       Java8（JDK8）
+      </a>
+      </div> 
+      <div class="mdui-panel-item-body"> 
+       <div class="mdui-panel" mdui-panel=""> 
+        <div class="mdui-panel-item"> 
+         <div class="mdui-panel-item-header">
+          2022 4月份
+         </div> 
+         <div class="mdui-panel-item-body"> 
+          <h2>Linux:</h2> 
+          <p>适配版本：x64，Arm64</p> 
+          <p>文件大小：141.15 MB，71.04 MB</p> 
+          <p>
+            MD5：<br>
+            x64_913c45332b22860b096217d9952c2ea4<br>
+            Arm64_da501019ba6959eb81ae37c0577348f6
+          </p>
+          <br>
+          <a href="https://www.miaofile.com/api/v3/file/source/132372/jdk-8u333-linux-x64.tar.gz?sign=IsydTJwwv7oGoFdsvj_eH90pv5xnS_5x3kDWYWCxBBE%3D%3A0">
+          <button style="float:right" class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载x64</button>
+          </a>
+          <a href="https://www.miaofile.com/api/v3/file/source/132373/jdk-8u333-linux-aarch64.tar.gz?sign=lOFAIS5VqsRepxLxju5hsvNMWsEFb3_Cr1CRf2x-HZg%3D%3A0">
+          <button style="float:right" class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载Arm64</button> 
+          </a>
+          <h2>Windows:</h2> 
+          <p>适配版本：x64</p> 
+          <p>文件大小：172.66 MB </p> 
+          <p>MD5：830c338ee262b808fad8c05ec8ed2237 </p>
+          <a href="https://www.miaofile.com/api/v3/file/source/132374/jdk-8u333-windows-x64.exe?sign=0WXn4zfJvsIs0L7RfsrY2hO1LPgabDEEzgvtXrCpk0I%3D%3A0">
+          <button style="float:right" class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button>
+          </a>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <br /> 
+    <div class="mdui-panel" mdui-panel=""> 
+    <div class="mdui-panel-item"> 
+     <div class="mdui-panel-item-header">
+      Java9（JDK9）
+     </div> 
+     <div class="mdui-panel-item-body"> 
+      <div class="mdui-panel" mdui-panel=""> 
+       <div class="mdui-panel-item"> 
+        <div class="mdui-panel-item-header">
+         2014 12月份
+        </div> 
+        <div class="mdui-panel-item-body"> 
+         <h2>Linux:</h2> 
+         <p>适配版本：</p> 
+         <p>文件大小：</p> 
+         <p>MD5：</p> 
+         <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+         <h2>Windows:</h2> 
+         <p>适配版本：</p> 
+         <p>文件大小：</p> 
+         <p>MD5：</p> 
+         <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+        </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     </div> 
+    </div> 
+    <br/> 
+    <div class="mdui-panel" mdui-panel=""> 
+    <div class="mdui-panel-item"> 
+     <div class="mdui-panel-item-header">
+      Java10（JDK10）
+     </div> 
+     <div class="mdui-panel-item-body"> 
+      <div class="mdui-panel" mdui-panel=""> 
+       <div class="mdui-panel-item"> 
+        <div class="mdui-panel-item-header">
+         2014 12月份
+        </div> 
+        <div class="mdui-panel-item-body"> 
+         <h2>Linux:</h2> 
+         <p>适配版本：</p> 
+         <p>文件大小：</p> 
+         <p>MD5：</p> 
+         <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+         <h2>Windows:</h2> 
+         <p>适配版本：</p> 
+         <p>文件大小：</p> 
+         <p>MD5：</p> 
+         <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <br/> 
+    <div class="mdui-panel" mdui-panel=""> 
+     <div class="mdui-panel-item"> 
+      <div class="mdui-panel-item-header">
+       Java11（JDK11）
+      </div> 
+      <div class="mdui-panel-item-body"> 
+       <div class="mdui-panel" mdui-panel=""> 
+        <div class="mdui-panel-item"> 
+         <div class="mdui-panel-item-header">
+          2014 12月份
+         </div> 
+         <div class="mdui-panel-item-body"> 
+          <h2>Linux:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+          <h2>Windows:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+    <br>
+    <div class="mdui-panel" mdui-panel=""> 
+     <div class="mdui-panel-item"> 
+      <div class="mdui-panel-item-header">
+       Java12（JDK12）
+      </div> 
+      <div class="mdui-panel-item-body"> 
+       <div class="mdui-panel" mdui-panel=""> 
+        <div class="mdui-panel-item"> 
+         <div class="mdui-panel-item-header">
+          2014 12月份
+         </div> 
+         <div class="mdui-panel-item-body"> 
+          <h2>Linux:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+          <h2>Windows:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+    <br>
+    <div class="mdui-panel" mdui-panel=""> 
+     <div class="mdui-panel-item"> 
+      <div class="mdui-panel-item-header">
+       Java13（JDK13）
+      </div> 
+      <div class="mdui-panel-item-body"> 
+       <div class="mdui-panel" mdui-panel=""> 
+        <div class="mdui-panel-item"> 
+         <div class="mdui-panel-item-header">
+          2014 12月份
+         </div> 
+         <div class="mdui-panel-item-body"> 
+          <h2>Linux:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+          <h2>Windows:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+    <br>
+    <div class="mdui-panel" mdui-panel=""> 
+     <div class="mdui-panel-item"> 
+      <div class="mdui-panel-item-header">
+       Java14（JDK14）
+      </div> 
+      <div class="mdui-panel-item-body"> 
+       <div class="mdui-panel" mdui-panel=""> 
+        <div class="mdui-panel-item"> 
+         <div class="mdui-panel-item-header">
+          2014 12月份
+         </div> 
+         <div class="mdui-panel-item-body"> 
+          <h2>Linux:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+          <h2>Windows:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+    <br>
+    <div class="mdui-panel" mdui-panel=""> 
+     <div class="mdui-panel-item"> 
+      <div class="mdui-panel-item-header">
+       Java15（JDK15）
+      </div> 
+      <div class="mdui-panel-item-body"> 
+       <div class="mdui-panel" mdui-panel=""> 
+        <div class="mdui-panel-item"> 
+         <div class="mdui-panel-item-header">
+          2014 12月份
+         </div> 
+         <div class="mdui-panel-item-body"> 
+          <h2>Linux:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+          <h2>Windows:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+    </div>
+    <br>
+    <div class="mdui-panel" mdui-panel=""> 
+     <div class="mdui-panel-item"> 
+      <div class="mdui-panel-item-header">
+       Java16（JDK16）
+      </div> 
+      <div class="mdui-panel-item-body"> 
+       <div class="mdui-panel" mdui-panel=""> 
+        <div class="mdui-panel-item"> 
+         <div class="mdui-panel-item-header">
+          2014 12月份
+         </div> 
+         <div class="mdui-panel-item-body"> 
+          <h2>Linux:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+          <h2>Windows:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+    <br>
+    <div class="mdui-panel" mdui-panel=""> 
+     <div class="mdui-panel-item"> 
+      <div class="mdui-panel-item-header">
+       Java17（JDK17）
+      </div> 
+      <div class="mdui-panel-item-body"> 
+       <div class="mdui-panel" mdui-panel=""> 
+        <div class="mdui-panel-item"> 
+         <div class="mdui-panel-item-header">
+          2014 12月份
+         </div> 
+         <div class="mdui-panel-item-body"> 
+          <h2>Linux:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+          <h2>Windows:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+    <br>
+    <div class="mdui-panel" mdui-panel=""> 
+     <div class="mdui-panel-item"> 
+      <div class="mdui-panel-item-header">
+       Java18（JDK18）
+      </div> 
+      <div class="mdui-panel-item-body"> 
+       <div class="mdui-panel" mdui-panel=""> 
+        <div class="mdui-panel-item"> 
+         <div class="mdui-panel-item-header">
+          2014 12月份
+         </div> 
+         <div class="mdui-panel-item-body"> 
+          <h2>Linux:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+          <h2>Windows:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div>
+    <br>
+     <div class="mdui-panel" mdui-panel=""> 
+     <div class="mdui-panel-item"> 
+      <div class="mdui-panel-item-header">
+       Java19（JDK19）
+      </div> 
+      <div class="mdui-panel-item-body"> 
+       <div class="mdui-panel" mdui-panel=""> 
+        <div class="mdui-panel-item"> 
+         <div class="mdui-panel-item-header">
+          2014 12月份
+         </div> 
+         <div class="mdui-panel-item-body"> 
+          <h2>Linux:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+          <h2>Windows:</h2> 
+          <p>适配版本：</p> 
+          <p>文件大小：</p> 
+          <p>MD5：</p> 
+          <button class="mdui-btn mdui-btn-raised mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div>
+    </div>
+    <!-- Home#3 End -->
 
   <!-- JavaScript Start -->
   <script src="/assets/js/mdui.min.js"></script>
@@ -339,7 +758,7 @@
           },
           "mobile": {
               "show": true,	// 移动端显示
-              "scale": 0.2	//移动端显示缩小比例
+              "scale": 0.15	//移动端显示缩小比例
           },
           "react": {
               "opacityDefault": 0.9,	//默认透明度

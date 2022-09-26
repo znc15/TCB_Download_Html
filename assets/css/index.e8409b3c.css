@@ -2471,6 +2471,9 @@ body.mdui-loaded .mdui-drawer {
   .mdui-container {
     padding: 24px 8px 62px;
   }
+  .mdui-home3-container {
+    padding: 24px 8px 0px;
+  }
 }
 .mdui-theme-layout-dark .mdui-btn-raised {
   background-color: #424242;
