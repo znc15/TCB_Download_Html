@@ -26,6 +26,7 @@
     <link href="../assets/css/mdui.min.css" rel="stylesheet" />
     <link href="../assets/css/mdui.css" rel="stylesheet" />
     <link href="../assets/css/index.e8409b3c.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/mtu/dist/mtu.min.css rel="stylesheet">
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/css/all.css" rel="stylesheet">
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/css/fontawesome.css" rel="stylesheet">
@@ -55,26 +56,26 @@
     <!-- List Start -->
     <div class="mdui-drawer mdui-shadow-1 mc-drawer" id="drawer">
       <div class="mdui-list">
-      <li class="mdui-list-item mdui-ripple mdui-list-item-active">
+      <a href="/zh-cn" class="mdui-list-item mdui-ripple mdui-list-item-active">
         <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
         <div class="mdui-list-item-content">首页</div>
-      </li>
+      </a>
       <li class="mdui-subheader">下载/Download</li>
-      <li class="mdui-list-item mdui-ripple">
+      <a href="/zh-cn/java/" class="mdui-list-item mdui-ripple">
         <i class="mdui-list-item-icon mdui-icon material-icons">free_breakfast</i>
-        <div href="/java" class="mdui-list-item-content">Java下载</div>
-      </li>
+        <div class="mdui-list-item-content">Java下载</div>
+      </a>
       <li class="mdui-list-item mdui-ripple">
         <i class="mdui-list-item-icon mdui-icon material-icons">cloud_download</i>
-        <div href="/modpack" class="mdui-list-item-content">整合包下载</div>
+        <div href="./modpack" class="mdui-list-item-content">整合包下载</div>
       </li>
       <li class="mdui-list-item mdui-ripple">
         <i class="mdui-list-item-icon mdui-icon material-icons">move_to_inbox</i>
-        <div href="/hmcl" class="mdui-list-item-content">启动器下载</div>
+        <div href="./hmcl" class="mdui-list-item-content">启动器下载</div>
       </li>
       <li class="mdui-list-item mdui-ripple">
         <i class="mdui-list-item-icon mdui-icon material-icons">android</i>
-        <div href="/be" class="mdui-list-item-content">基岩版下载</div>
+        <div href="./be" class="mdui-list-item-content">基岩版下载</div>
       </li>
       <li class="mdui-subheader">联系方式</li>
       <li class="mdui-list-item mdui-ripple">
@@ -94,8 +95,7 @@
         <br>Minecraft Server.
         <br>Design with by TCB Work's HTML.
         <br>Powered by
-        <a href="https://mdui.org" target="_blank">MDUI</a> &amp; 
-        <a href="https://mdclub.org" target="_blank">MDClub.</a>
+        <a href="https://mdui.org" target="_blank">MDUI&Ali-a.cn</a>
       </p>
     </div>
   </div>
@@ -213,7 +213,7 @@
 
   <!-- Thanks Start -->
   <article id="aboutus" name="aboutus">
-    <div class="utf-team-area carousel-shadow default-thank-padding">
+    <div class="utf-team-area carousel-shadow default-thanks-padding">
         <div class="container">
             <div class="row">
                 <div class="utf-site-heading text-center">
@@ -249,7 +249,7 @@
     </center>
   </article>
   <!-- Thanks End -->
-
+  
   <!-- JavaScript Start -->
   <script src="../assets/js/mdui.min.js"></script>
   <script src="../assets/js/mdui.js"></script>
@@ -269,12 +269,43 @@
   <script src="../assets/js/typed.js"></script>
   <script src="../assets/js/YTPlayer.min.js"></script>
   <script src="../assets/js/custom_script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mtu/dist/mtu.min.js"></script>
   <script src="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/js/all.js"></script>
   <script src="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
   <script src="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/js/fontawesome.js"></script>
   <script src="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/js/fontawesome.min.js"></script>
+  <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
   <!-- JavaScript End -->
 
   </body>
   <!-- Body End -->
+
+  <!-- Footer Start -->
+  <footer>
+    <!-- Live2d Start -->
+    <script>
+      L2Dwidget.init({
+          "model": {
+              jsonPath: "../assets/model/xiaomai/xiaomai.model.json",
+              "scale": 1
+          },
+          "display": {
+              "position": "right", //显示位置左、右
+              "width": 75,  // 宽度
+              "height": 150, //高度
+          },
+          "mobile": {
+              "show": false,	// 移动端显示
+              "scale": 0.2	//移动端显示缩小比例
+          },
+          "react": {
+              "opacityDefault": 0.9,	//默认透明度
+              "opacityOnHover": 0.2	//鼠标选中透明度
+          }
+      });
+    </script>
+    <!-- Live2d Start -->
+  </footer>
+  <!-- Footer end -->
+
 </html>
