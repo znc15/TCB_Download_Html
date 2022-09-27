@@ -169,7 +169,7 @@
       <div class="mdui-col-sm-6 mdui-col-md-4"> 
        <div class="mdui-card"> 
         <div class="mdui-card-media"> 
-         <img src="https://cdn.w3cbus.com/mdui/docs~1/static/1ca4b7b2b4b2f2352aeb.jpg" /> 
+         <img src="https://api.miaomc.cn/image/get?1" height="200" width="200"/> 
          <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
          <div class="mdui-card-media-covered">
           <div class="mdui-card-primary"> 
@@ -198,7 +198,7 @@
       <div class="mdui-col-sm-6 mdui-col-md-4"> 
        <div class="mdui-card"> 
         <div class="mdui-card-media"> 
-         <img src="https://cdn.w3cbus.com/mdui/docs~1/static/1ca4b7b2b4b2f2352aeb.jpg" /> 
+         <img src="https://api.miaomc.cn/image/get?2" height="200" width="200"/> 
          <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
          <div class="mdui-card-media-covered">
           <div class="mdui-card-primary"> 
@@ -220,7 +220,7 @@
       <div class="mdui-col-sm-6 mdui-col-md-4"> 
        <div class="mdui-card"> 
         <div class="mdui-card-media"> 
-         <img src="https://cdn.w3cbus.com/mdui/docs~1/static/1ca4b7b2b4b2f2352aeb.jpg" /> 
+         <img src="https://api.miaomc.cn/image/get?3" height="200" width="200"/> 
          <div class="mdui-card-media-covered mdui-card-media-covered-transparent"> 
          <div class="mdui-card-media-covered">
           <div class="mdui-card-primary"> 
@@ -245,7 +245,7 @@
       <div class="mdui-col-sm-6 mdui-col-md-4"> 
        <div class="mdui-card"> 
         <div class="mdui-card-media"> 
-         <img src="https://cdn.w3cbus.com/mdui/docs~1/static/1ca4b7b2b4b2f2352aeb.jpg" /> 
+         <img src="https://api.miaomc.cn/image/get?4" height="200" width="200"/> 
          <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
          <div class="mdui-card-media-covered">
           <div class="mdui-card-primary"> 
@@ -267,7 +267,7 @@
       <div class="mdui-col-sm-6 mdui-col-md-4"> 
        <div class="mdui-card"> 
         <div class="mdui-card-media"> 
-         <img src="https://cdn.w3cbus.com/mdui/docs~1/static/1ca4b7b2b4b2f2352aeb.jpg" /> 
+         <img src="https://api.miaomc.cn/image/get?5" height="200" width="200"/> 
          <div class="mdui-card-media-covered mdui-card-media-covered-transparent"> 
          <div class="mdui-card-media-covered">
           <div class="mdui-card-primary"> 
@@ -289,7 +289,7 @@
       <div class="mdui-col-sm-6 mdui-col-md-4"> 
        <div class="mdui-card"> 
         <div class="mdui-card-media"> 
-         <img src="https://cdn.w3cbus.com/mdui/docs~1/static/1ca4b7b2b4b2f2352aeb.jpg" /> 
+         <img src="https://api.miaomc.cn/image/get?6" height="200" width="200"/> 
          <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
          <div class="mdui-card-media-covered">
           <div class="mdui-card-primary"> 
@@ -812,7 +812,7 @@
               "height": 150, //高度
           },
           "mobile": {
-              "show": true,	// 移动端显示
+              "show": false,	// 移动端显示
               "scale": 0.15	//移动端显示缩小比例
           },
           "react": {
