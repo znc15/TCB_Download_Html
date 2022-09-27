@@ -38,20 +38,28 @@
   <body class="mdui-drawer-body-left mdui-drawer-full-height" style="padding-top: 100px;">
     <!-- APPBAR Start -->
     <header>
-    <div class="mdui-appbar mc-appbar mdui-appbar-fixed mdui-shadow-0">
-      <div class="mdui-toolbar toolbar mdui-text-color-black mdui-shadow-3">
-        <button id="toggle" class="drawer mdui-btn mdui-btn-icon mdui-ripple">
-          <i class="mdui-icon material-icons">menu</i>
-        </button>
-        <a href="javascript:;" class="mdui-typo-title">TCB Work</a>
-        <div class="mdui-toolbar-spacer"></div>
-        <a onclick="javascript:location.reload();" class="mdui-btn mdui-btn-icon">
-          <i class="mdui-icon material-icons">refresh</i>
-        </a>
-        <a class="mdui-btn mdui-btn-icon">
-        <i class="fa-solid fa-language mdui-icon material-icons"></i>
-        </a>
-      </div>
+    <div class="mdui-appbar mc-appbar mdui-appbar-fixed mdui-shadow-0"> 
+    <div class="mdui-toolbar toolbar mdui-text-color-black mdui-shadow-3"> 
+    <button id="toggle" class="drawer mdui-btn mdui-btn-icon mdui-ripple">
+      <i class="mdui-icon material-icons">menu</i>
+    </button> 
+    <a href="javascript:;" class="mdui-typo-title">TCB Work</a> 
+    <div class="mdui-toolbar-spacer"></div> 
+    <a onclick="javascript:location.reload();" class="mdui-btn mdui-btn-icon">
+       <i class="mdui-icon material-icons">refresh</i>
+    </a> 
+    <div class="mdui-contain"> 
+     <button class="drawer mdui-btn mdui-btn-icon mdui-ripple" mdui-menu="{target: '#example-2'}">
+      <i class="mdui-icon material-icons">language</i>
+     </button> 
+     <ul class="mdui-menu" id="example-2"> 
+      <li class="mdui-menu-item"> <a href="/zh-cn" class="mdui-ripple">
+        <i class="mdui-menu-item-icon mdui-icon material-icons">remove_red_eye</i>Chinese/中文</a></li> 
+      <li class="mdui-menu-item"> <a href="/en-US" class="mdui-ripple">
+        <i class="mdui-menu-item-icon mdui-icon material-icons">remove_red_eye</i>English/英文</a></li> 
+     </ul> 
+    </div> 
+    </div> 
     </div>
     </header>
     <!-- APPBAR End -->
@@ -59,12 +67,12 @@
     <!-- List Start -->
     <div class="mdui-drawer mdui-shadow-1 mc-drawer" id="drawer">
       <div class="mdui-list">
-      <a href="/zh-cn" class="mdui-list-item mdui-ripple mdui-list-item-active">
+      <a href="/zh-cn" class="mdui-list-item mdui-ripple">
         <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
         <div class="mdui-list-item-content">首页</div>
       </a>
       <li class="mdui-subheader">下载/Download</li>
-      <a href="/zh-cn/java/" class="mdui-list-item mdui-ripple">
+      <a href="/zh-cn/java/" class="mdui-list-item mdui-ripple mdui-list-item-active">
         <i class="mdui-list-item-icon mdui-icon material-icons">free_breakfast</i>
         <div class="mdui-list-item-content">Java下载</div>
       </a>
