@@ -134,7 +134,7 @@
         >
       </div>
       <div class="more-meta mdui-typo">
-        <span class="current">当前版本：v1.2.0</span
+        <span class="current">当前版本：Java19.0.1</span
         ><span
           ><a
             href="https://github.com/MiaoFile"
