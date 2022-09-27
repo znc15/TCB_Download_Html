@@ -14,18 +14,18 @@
     <!--   Html info End   -->
 
     <!--   CSS Start   -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/assets/css/flaticon-set.css" rel="stylesheet" />
-    <link href="/assets/css/magnific-popup.css" rel="stylesheet" />
-    <link href="/assets/css/owl.carousel.min.css" rel="stylesheet" />
-    <link href="/assets/css/owl.theme.default.min.css" rel="stylesheet" />
-    <link href="/assets/css/animate.css" rel="stylesheet" />
-    <link href="/assets/css/bootsnav.css" rel="stylesheet" />
-    <link href="/assets/css/style.css" rel="stylesheet" />
-    <link href="/assets/css/responsive.css" rel="stylesheet" />
-    <link href="/assets/css/mdui.min.css" rel="stylesheet" />
-    <link href="/assets/css/mdui.css" rel="stylesheet" />
-    <link href="/assets/css/index.e8409b3c.css" rel="stylesheet" />
+    <link href="https://assets.cdn.tcbmc.cc/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://assets.cdn.tcbmc.cc/assets/css/flaticon-set.css" rel="stylesheet" />
+    <link href="https://assets.cdn.tcbmc.cc/assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="https://assets.cdn.tcbmc.cc/assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="https://assets.cdn.tcbmc.cc/assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="https://assets.cdn.tcbmc.cc/assets/css/animate.css" rel="stylesheet" />
+    <link href="https://assets.cdn.tcbmc.cc/assets/css/bootsnav.css" rel="stylesheet" />
+    <link href="https://assets.cdn.tcbmc.cc/assets/css/style.css" rel="stylesheet" />
+    <link href="https://assets.cdn.tcbmc.cc/assets/css/responsive.css" rel="stylesheet" />
+    <link href="https://assets.cdn.tcbmc.cc/assets/css/mdui.min.css" rel="stylesheet" />
+    <link href="https://assets.cdn.tcbmc.cc/assets/css/mdui.css" rel="stylesheet" />
+    <link href="https://assets.cdn.tcbmc.cc/assets/css/index.e8409b3c.css" rel="stylesheet" />
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/css/all.css" rel="stylesheet">
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/css/fontawesome.css" rel="stylesheet">
@@ -776,24 +776,24 @@
     <!-- Home#3 End -->
 
   <!-- JavaScript Start -->
-  <script src="/assets/js/mdui.min.js"></script>
-  <script src="/assets/js/mdui.js"></script>
-  <script src="/assets/js/jquery-3.2.1.min.js"></script>
-  <script src="/assets/js/bootstrap.min.js"></script>
-  <script src="/assets/js/equal-height.min.js"></script>
-  <script src="/assets/js/jquery.appear.js"></script>
-  <script src="/assets/js/jquery.easing.min.js"></script>
-  <script src="/assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="/assets/js/modernizr.custom.js"></script>
-  <script src="/assets/js/owl.carousel.min.js"></script>
-  <script src="/assets/js/wow.min.js"></script>
-  <script src="/assets/js/isotope.pkgd.min.js"></script>
-  <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
-  <script src="/assets/js/count-to.js"></script>
-  <script src="/assets/js/bootsnav.js"></script>
-  <script src="/assets/js/typed.js"></script>
-  <script src="/assets/js/YTPlayer.min.js"></script>
-  <script src="/assets/js/custom_script.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/mdui.min.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/mdui.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/jquery-3.2.1.min.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/bootstrap.min.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/equal-height.min.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/jquery.appear.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/jquery.easing.min.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/modernizr.custom.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/owl.carousel.min.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/wow.min.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/isotope.pkgd.min.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/imagesloaded.pkgd.min.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/count-to.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/bootsnav.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/typed.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/YTPlayer.min.js"></script>
+  <script src="https://assets.cdn.tcbmc.cc/assets/js/custom_script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/mtu/dist/mtu.min.js"></script>
   <script src="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/js/all.js"></script>
   <script src="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
@@ -811,7 +811,7 @@
     <script>
       L2Dwidget.init({
           "model": {
-              jsonPath: "/assets/model/xiaomai/xiaomai.model.json",
+              jsonPath: "https://assets.cdn.tcbmc.cc/assets/model/xiaomai/xiaomai.model.json",
               "scale": 1
           },
           "display": {
