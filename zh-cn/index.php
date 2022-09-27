@@ -68,28 +68,28 @@
         <i class="mdui-list-item-icon mdui-icon material-icons">free_breakfast</i>
         <div class="mdui-list-item-content">Java下载</div>
       </a>
-      <li class="mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons">cloud_download</i>
-        <div href="./modpack" class="mdui-list-item-content">整合包下载</div>
-      </li>
-      <li class="mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons">move_to_inbox</i>
-        <div href="./hmcl" class="mdui-list-item-content">启动器下载</div>
-      </li>
-      <li class="mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons">android</i>
-        <div href="./be" class="mdui-list-item-content">基岩版下载</div>
-      </li>
+      <a href="/zh-cn/modpack" class="mdui-list-item mdui-ripple">
+        <li class="mdui-list-item-icon mdui-icon material-icons">cloud_download</li>
+        <div class="mdui-list-item-content">整合包下载</div>
+      </a>
+      <a href="/zh-cn/hmcl" class="mdui-list-item mdui-ripple">
+        <li class="mdui-list-item-icon mdui-icon material-icons">move_to_inbox</li>
+        <div class="mdui-list-item-content">启动器下载</div>
+      </a>
+      <a href="/zh-cn/be" class="mdui-list-item mdui-ripple">
+        <li class="mdui-list-item-icon mdui-icon material-icons">android</li>
+        <div class="mdui-list-item-content">基岩版下载</div>
+      </a>
       <li class="mdui-subheader">联系方式</li>
-      <li class="mdui-list-item mdui-ripple">
+      <a href="https://jq.qq.com/?_wv=1027&k=hFdySg2N" class="mdui-list-item mdui-ripple">
         <i class="mdui-list-item-icon mdui-icon material-icons">email</i>
         <div href="https://jq.qq.com/?_wv=1027&k=hFdySg2N" class="mdui-list-item-content">QQ群</div>
-      </li>
+      </a>
       <li class="mdui-subheader">友情链接/Link</li>
-      <li class="mdui-list-item mdui-ripple">
+      <a href="https://www.miaofile.com" class="mdui-list-item mdui-ripple">
         <i class="fa-brands fa-internet-explorer mdui-list-item-icon"></i>
-        <div href="https://www.miaofile.com" class="mdui-list-item-content">储存猫</div>
-      </li>
+        <div class="mdui-list-item-content">储存猫</div>
+      </a>
      </div>
      <div class="copyright">
       <p>

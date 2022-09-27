@@ -6465,6 +6465,7 @@ body.mdui-locked {
 .mdui-panel-item {
   color: rgba(0, 0, 0, 0.87);
   background-color: #fff;
+  border-radius: 15px;
   -webkit-transition: margin 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   transition: margin 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: margin;
