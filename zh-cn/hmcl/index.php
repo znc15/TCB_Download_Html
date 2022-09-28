@@ -33,6 +33,7 @@
     <!--   CSS End   -->
   </head>
   <!--   Header End   -->
+
   <!-- Body Start -->
   <body class="mdui-drawer-body-left mdui-drawer-full-height" style="padding-top: 100px;">
     <!-- APPBAR Start -->
@@ -66,7 +67,7 @@
     <!-- List Start -->
     <div class="mdui-drawer mdui-shadow-1 mc-drawer" id="drawer">
       <div class="mdui-list">
-      <a href="/zh-cn" class="mdui-list-item mdui-ripple mdui-list-item-active">
+      <a href="/zh-cn" class="mdui-list-item mdui-ripple">
         <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
         <div class="mdui-list-item-content">首页</div>
       </a>
@@ -79,7 +80,7 @@
         <li class="mdui-list-item-icon mdui-icon material-icons">cloud_download</li>
         <div class="mdui-list-item-content">整合包下载</div>
       </a>
-      <a href="/zh-cn/hmcl" class="mdui-list-item mdui-ripple">
+      <a href="/zh-cn/hmcl" class="mdui-list-item mdui-ripple mdui-list-item-active">
         <li class="mdui-list-item-icon mdui-icon material-icons">move_to_inbox</li>
         <div class="mdui-list-item-content">启动器下载</div>
       </a>
@@ -111,15 +112,17 @@
   </div>
   <!-- List End -->
 
-  <!-- Home#1 Start -->
+  <!-- Home Start -->
   <div id="page-index" class="mdui-container">
+
+    <!-- Home#1 Start -->
     <div class="banner">
       <h1>
-        <strong>T</strong>CB <strong>W</strong>ork's
-        <strong>M</strong>inecraft <strong>下载</strong>中心
+        <strong>启</strong>动器 <strong>下</strong>载
+        <strong>页</strong>面 
       </h1>
       <div class="meta">
-        轻松下载Java，TMC整合包，HMCL启动器，基岩版客户端，游玩更方便
+        主流启动器齐聚一堂，有条件的请去官网下载
       </div>
       <div class="actions">
         <a href="/docs" class="mdui-btn mdui-ripple" target="_blank"
@@ -131,7 +134,7 @@
         >
       </div>
       <div class="more-meta mdui-typo">
-        <span class="current">当前版本：v1.2.0</span
+        <span class="current">当前版本：[Null]</span
         ><span
           ><a
             href="https://github.com/MiaoFile"
@@ -156,110 +159,100 @@
         >
       </div>
     </div>
-        <!--   About Us Start   -->
-        <div class="utf-services-area bg-gray default-padding bottom-less">
-          <div class="container">
-              <div class="row">
-                  <div class="utf-site-heading text-center">
-                      <div class="col-md-8 col-md-offset-2">
-                          <h2>我们的<span>优势</span></h2>
-                          <p>感谢您选择我们！您的到来将会使我们变得更好！</p>
-                      </div>
-                  </div>
-              </div>
-              <center>
-              <div class="row">
-                  <div class="utf-services-items">
-                      <div class="col-md-4 col-sm-6 equal-height">
-                          <div class="item mdui-ripple">
-                              <i class="flaticon-layers-1"></i>
-                              <h4>高性能</h4>
-                              <p>我们拥有高性能，高并发的服务器主机，拒绝任何卡顿！这将会给您带来更棒，更畅快的游戏体验。</p>
-                          </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 equal-height">
-                          <div class="item mdui-ripple">
-                              <i class="flaticon-sketch"></i>
-                              <h4>经验丰富</h4>
-                              <p>我们的服务器最初可以追溯到2020年的夏天，我们早已经在历史的寒风中积累了不少经验和勇气！</p>
-                          </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 equal-height">
-                          <div class="item mdui-ripple">
-                              <i class="flaticon-technical-support"></i>
-                              <h4>用户体验</h4>
-                              <p>遇到问题了？没关系，联系我们的服务器管理！我们将会在收到后1个工作日之内回应您的问题及解决方案！</p>
-                          </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 equal-height">
-                          <div class="item mdui-ripple">
-                              <i class="flaticon-growth"></i>
-                              <h4>网络节点</h4>
-                              <p>我们使用的是BGP宽带，服务器节点位置位于中国，降低您的访问延迟，提高您的游戏体验！</p>
-                          </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 equal-height">
-                          <div class="item mdui-ripple">
-                              <i class="flaticon-network"></i>
-                              <h4>特色</h4>
-                              <p>我们已经逐渐发展出了，我们自己的特色，以及良好的社区环境，总之就是欢迎您加入我们！</p>
-                          </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 equal-height">
-                          <div class="item mdui-ripple">
-                              <i class="flaticon-jigsaws"></i>
-                              <h4>可持续性</h4>
-                              <p>每一次传送都将会是随机传送，世界会定期或不定期刷新以确保资源发展的可持续性，给您带来更棒的游戏体验！</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              </center>
-          </div>
-      </div>
-      <!--   About Us End   -->
-  </div>
-  <!-- Home#1 End -->
+    <!-- Home#1 End -->
 
-  <!-- Thanks Start -->
-  <article id="aboutus" name="aboutus">
-    <div class="utf-team-area carousel-shadow default-thanks-padding">
-        <div class="container">
-            <div class="row">
-                <div class="utf-site-heading text-center">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h2><span>特别 </span>鸣谢</h2>
-                        <p>这里特别感谢熊可狸提供的服务器以及网站模板</p>
-                    </div>
-                </div>
+    <!-- Home#2 Start -->
+    <div class="utf-services-area bg-gray default-padding bottom-less"> 
+    <div class="container"> 
+    <div class="row"> 
+     <div class="utf-site-heading text-center"> 
+      <div class="col-md-8 col-md-offset-2"> 
+       <h2>主要版本<span>下载</span></h2> 
+       <p>流行版本下载区，版本为Windows x64</p> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="mdui-container"> 
+     <div class="mdui-row"> 
+      <div class="mdui-col-sm-6 mdui-col-md-4"> 
+       <div class="mdui-card"> 
+        <div class="mdui-card-media"> 
+         <img src="https://api.miaomc.cn/image/get?1" height="200" width="200"/> 
+         <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
+         <div class="mdui-card-media-covered">
+          <div class="mdui-card-primary"> 
+           <div class="mdui-card-primary-title">
+            HMCL 启动器
+           </div> 
+           </div>
+          </div> 
+         </div> 
+        </div> 
+        <div class="mdui-card-actions">
+        <a href="https://www.miaofile.com/api/v3/file/source/132374/jdk-8u333-windows-x64.exe?sign=0WXn4zfJvsIs0L7RfsrY2hO1LPgabDEEzgvtXrCpk0I%3D%3A0">
+         <button class="mdui-btn mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+        </a>
+         <div class="mdui-dialog" id="download-ts">
+           <div class="mdui-dialog-title">正在下载了喵！</div>
+           <div class="mdui-dialog-content">如果下载速度不行，可以使用IDM，FreeDownload等多线程下载器</div>
+           <div class="mdui-dialog-actions">
+           <button class="mdui-btn mdui-ripple" mdui-dialog-cancel>我知道啦</button>
+          </div>
+         </div>
+         <button class="mdui-btn mdui-ripple">历史版本查看</button> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="mdui-col-sm-6 mdui-col-md-4"> 
+       <div class="mdui-card"> 
+        <div class="mdui-card-media"> 
+         <img src="https://api.miaomc.cn/image/get?2" height="200" width="200"/> 
+         <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
+         <div class="mdui-card-media-covered">
+          <div class="mdui-card-primary"> 
+           <div class="mdui-card-primary-title">
+            PCL 启动器
             </div>
-            <div class="row">
-                <center>
-                <div class="col-md-12">
-                    <div class="utf-team-items utf-team-carousel owl-carousel owl-theme">
-                        <!--Start KumaAli-->
-                        <div class="item">
-                            <a target="_blank" href="http://ali-a.cn" title="Blog">
-                                <div class="thumb mdui-ripple">
-                                    <img src="https://m1.miaomc.cn/uploads/20210117_d75593a0c9af2.png" />
-                                </div>
-                            </a>
-                            <div class="info mdui-ripple">
-                                <h4><a target="_blank" href="http://ali-a.cn" title="Blog">熊可狸</a></h4>
-                                <span>网站源码提供者,Java版服务器底层架构开发者</span>
-                                <p>嗯...也就那样吧，是个很宅的死宅呢！平时就喜欢折腾！想学的东西还有很多呢</p>
-                            </div>
-                        </div>
-                        <!--Start KumaAli-->
-                    </div>
-                </div>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="mdui-card-actions">
+        <a href="https://www.miaofile.com/api/v3/file/source/132379/jdk-11.0.16_windows-x64_bin.exe?sign=7UVYX8fy38hPp5z3RweRE6KzaopYjnaqnwCuTyjFwUA%3D%3A0">
+         <button class="mdui-btn mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button>
+         </a>
+         <button class="mdui-btn mdui-ripple">历史版本查看</button> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="mdui-col-sm-6 mdui-col-md-4"> 
+       <div class="mdui-card"> 
+        <div class="mdui-card-media"> 
+         <img src="https://api.miaomc.cn/image/get?3" height="200" width="200"/> 
+         <div class="mdui-card-media-covered mdui-card-media-covered-transparent"> 
+         <div class="mdui-card-media-covered">
+          <div class="mdui-card-primary"> 
+           <div class="mdui-card-primary-title">
+           BAKAXL 启动器
             </div>
-        </div>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="mdui-card-actions"> 
+        <a href="https://www.miaofile.com/api/v3/file/source/132388/jdk-16.0.2_windows-x64_bin.exe?sign=O_wWHpXKBSibMPDpidGsQXEDj42BZxO9EmpT9Fj7CLA%3D%3A0">
+         <button class="mdui-btn mdui-ripple" mdui-dialog="{target: '#download-ts'}">下载</button> 
+        </a>
+         <button class="mdui-btn mdui-ripple">历史版本查看</button> 
+        </div> 
+       </div> 
+       </div>
+       </div>
       </div>
-    </center>
-  </article>
-  <!-- Thanks End -->
-  
+     </div>
+    </div>
+    <!-- Home#2 End -->
+
   <!-- JavaScript Start -->
   <script src="https://assets.cdn.tcbmc.cc/assets/js/mdui.min.js"></script>
   <script src="https://assets.cdn.tcbmc.cc/assets/js/mdui.js"></script>
@@ -279,6 +272,7 @@
   <script src="https://assets.cdn.tcbmc.cc/assets/js/typed.js"></script>
   <script src="https://assets.cdn.tcbmc.cc/assets/js/YTPlayer.min.js"></script>
   <script src="https://assets.cdn.tcbmc.cc/assets/js/custom_script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mtu/dist/mtu.min.js"></script>
   <script src="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/js/all.js"></script>
   <script src="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
   <script src="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.2.0/js/fontawesome.js"></script>
@@ -305,7 +299,7 @@
           },
           "mobile": {
               "show": false,	// 移动端显示
-              "scale": 0.2	//移动端显示缩小比例
+              "scale": 0.15	//移动端显示缩小比例
           },
           "react": {
               "opacityDefault": 0.9,	//默认透明度
